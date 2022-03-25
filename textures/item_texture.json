@@ -1,0 +1,8 @@
+{
+    "resource_pack_name" : "Splaturn Weapons 3D",
+    "texture_data" : {
+        "stick" : {
+           "textures" : "textures/items/stick"
+        }
+    }
+}
