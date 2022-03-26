@@ -14,7 +14,8 @@
           "pablo": "textures/entity/splaturn.pablo",
           "splatbrella": "textures/entity/splaturn.splatbrella",
           "slosher": "textures/entity/splaturn.slosher",
-          "octobrush": "textures/entity/splaturn.octobrush"
+          "octobrush": "textures/entity/splaturn.octobrush",
+          "dynamoroller": "textures/entity/splaturn.dynamoroller"
         },
         "geometry": {
           "default": "geometry.humanoid.custom",
@@ -22,7 +23,8 @@
           "pablo": "geometry.splaturn.pablo",
           "splatbrella": "geometry.splaturn.splatbrella",
           "slosher": "geometry.splaturn.slosher",
-          "octobrush": "geometry.splaturn.octobrush"
+          "octobrush": "geometry.splaturn.octobrush",
+          "dynamoroller": "geometry.splaturn.dynamoroller"
         },
         "scripts": {
           "scale": "0.9375",
@@ -47,7 +49,8 @@
             "variable.pablo = query.get_equipped_item_name('main_hand') == 'stick';",
             "variable.splatbrella = query.get_equipped_item_name('main_hand') == 'fishing_rod';",
             "variable.slosher = query.get_equipped_item_name('main_hand') == 'bucket';",
-            "variable.octobrush = query.get_equipped_item_name('main_hand') == 'blaze_rod';"
+            "variable.octobrush = query.get_equipped_item_name('main_hand') == 'blaze_rod';",
+            "variable.dynamoroller = query.get_equipped_item_name('main_hand') == 'stone_pickaxe';"
           ],
           "animate": [
             "root"
@@ -112,7 +115,8 @@
           { "controller.render.pablo": "variable.pablo" },
           { "controller.render.splatbrella": "variable.splatbrella" },
           { "controller.render.slosher": "variable.slosher" },
-          { "controller.render.octobrush": "variable.octobrush" }
+          { "controller.render.octobrush": "variable.octobrush" },
+          { "controller.render.dynamoroller": "variable.dynamoroller" }
         ],
         "enable_attachables": true
       }

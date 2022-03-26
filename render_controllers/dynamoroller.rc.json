@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.dynamoroller": {
+			"textures": [
+				"Texture.dynamoroller"
+			],
+			"geometry": "Geometry.dynamoroller",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			]
+		}
+	}
+}

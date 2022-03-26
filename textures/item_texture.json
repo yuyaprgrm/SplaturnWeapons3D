@@ -20,6 +20,16 @@
         },
         "blaze_rod": {
             "textures": "textures/items/blaze_rod"
+        },
+        "pickaxe" : {
+            "textures" : [
+            "textures/items/wood_pickaxe",
+            "textures/items/stone_pickaxe",
+            "textures/items/iron_pickaxe",
+            "textures/items/gold_pickaxe",
+            "textures/items/diamond_pickaxe",
+            "textures/items/netherite_pickaxe"
+            ]
         }
     }
 }
