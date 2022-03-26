@@ -11,12 +11,14 @@
         "textures": {
           "default": "textures/entity/steve",
           "cape": "textures/entity/cape_invisible",
-          "pablo": "textures/entity/splaturn.pablo"
+          "pablo": "textures/entity/splaturn.pablo",
+          "splatbrella": "textures/entity/splaturn.splatbrella"
         },
         "geometry": {
           "default": "geometry.humanoid.custom",
           "cape": "geometry.cape",
-          "pablo": "geometry.splaturn.pablo"
+          "pablo": "geometry.splaturn.pablo",
+          "splatbrella": "geometry.splaturn.splatbrella"
         },
         "scripts": {
           "scale": "0.9375",
@@ -38,7 +40,8 @@
   
             "variable.map_angle = math.clamp(1 - variable.player_x_rotation / 45.1, 0.0, 1.0);",
             "variable.item_use_normalized = query.main_hand_item_use_duration / query.main_hand_item_max_duration;",
-            "variable.pablo = query.get_equipped_item_name('main_hand') == 'stick';"
+            "variable.pablo = query.get_equipped_item_name('main_hand') == 'stick';",
+            "variable.splatbrella = query.get_equipped_item_name('main_hand') == 'fishing_rod';"
           ],
           "animate": [
             "root"
@@ -100,7 +103,8 @@
           { "controller.render.player.first_person": "variable.is_first_person" },
           { "controller.render.player.third_person": "!variable.is_first_person && !variable.map_face_icon" },
           { "controller.render.player.map": "variable.map_face_icon" },
-          { "controller.render.pablo": "variable.pablo" }
+          { "controller.render.pablo": "variable.pablo" },
+          { "controller.render.splatbrella": "variable.splatbrella" }
         ],
         "enable_attachables": true
       }

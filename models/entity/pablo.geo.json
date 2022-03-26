@@ -54,37 +54,37 @@
 				{
 					"name": "pablo",
 					"parent": "rightArm",
-					"pivot": [-6, 17, -3],
+					"pivot": [-6, 15, 0],
 					"rotation": [180, 0, 0]
 				},
 				{
 					"name": "body2",
 					"parent": "pablo",
-					"pivot": [-6, 17, -3]
+					"pivot": [-6, 13, 3]
 				},
 				{
 					"name": "brush",
 					"parent": "body2",
-					"pivot": [-6, 17, -3],
+					"pivot": [-6, 13, 3],
 					"cubes": [
-						{"origin": [-8, 28, -5], "size": [4, 6, 4], "uv": [0, 0]}
+						{"origin": [-8, 24, 1], "size": [4, 6, 4], "uv": [0, 0]}
 					]
 				},
 				{
 					"name": "ferrule",
 					"parent": "body2",
-					"pivot": [-6, 17, -3],
+					"pivot": [-6, 13, 3],
 					"cubes": [
-						{"origin": [-7, 23, -4], "size": [2, 6, 2], "uv": [0, 10]}
+						{"origin": [-7, 19, 2], "size": [2, 6, 2], "uv": [0, 10]}
 					]
 				},
 				{
 					"name": "handle",
 					"parent": "pablo",
-					"pivot": [-6, 17, -3],
+					"pivot": [-6, 13, 3],
 					"cubes": [
-						{"origin": [-7, 17, -4], "size": [2, 5, 2], "uv": [8, 10]},
-						{"origin": [-7, 20, -2], "size": [2, 6, 1], "uv": [16, 1]}
+						{"origin": [-7, 13, 2], "size": [2, 5, 2], "uv": [8, 10]},
+						{"origin": [-7, 16, 4], "size": [2, 6, 1], "uv": [16, 1]}
 					]
 				},
 				{
