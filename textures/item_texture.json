@@ -30,6 +30,12 @@
             "textures/items/diamond_pickaxe",
             "textures/items/netherite_pickaxe"
             ]
-        }
+        },
+        "fishing_rod" : {
+            "textures" : [
+               "textures/items/fishing_rod_uncast",
+               "textures/items/fishing_rod_cast"
+            ]
+         }
     }
 }
