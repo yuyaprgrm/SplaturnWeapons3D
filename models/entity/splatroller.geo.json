@@ -1,0 +1,151 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.splaturn.splatroller",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "bodyArmor",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "belt",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "head",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "hat",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "rightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [-6, 15, 1]
+				},
+				{
+					"name": "rightArmArmor",
+					"parent": "rightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "splatroller",
+					"parent": "rightArm",
+					"pivot": [-6, 12, -5],
+					"rotation": [35, 0, 0]
+				},
+				{
+					"name": "roller",
+					"parent": "splatroller",
+					"pivot": [-7, 10, -11],
+					"cubes": [
+						{"origin": [-19, 10, -26], "size": [24, 4, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "handle",
+					"parent": "splatroller",
+					"pivot": [-7, 12, -18],
+					"cubes": [
+						{"origin": [-7, 10.5, -17.5], "size": [1, 1, 8], "uv": [0, 10]},
+						{"origin": [-7, 11.5, -10.5], "size": [1, 1, 9], "uv": [12, 17]},
+						{"origin": [-7.5, 11.5, -16.5], "size": [2, 2, 5], "uv": [10, 10]},
+						{"origin": [-8, 11.5, -17.5], "size": [3, 3, 1], "uv": [0, 10]}
+					]
+				},
+				{
+					"name": "shaft",
+					"parent": "splatroller",
+					"pivot": [6, 12, -25],
+					"cubes": [
+						{"origin": [5, 11.5, -24.5], "size": [3, 1, 1], "uv": [0, 14]},
+						{"origin": [-5, 11.5, -17.5], "size": [13, 1, 1], "uv": [0, 8]},
+						{"origin": [9, 11.5, -22.5], "size": [1, 1, 4], "uv": [0, 19]},
+						{"origin": [8, 11.5, -23.5], "size": [1, 1, 1], "uv": [0, 2]},
+						{"origin": [8, 11.5, -18.5], "size": [1, 1, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "leftArm",
+					"pivot": [5, 22, 0],
+					"mirror": true
+				},
+				{
+					"name": "leftArmArmor",
+					"parent": "leftArm",
+					"pivot": [5, 22, 0],
+					"mirror": true
+				},
+				{
+					"name": "rightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "rightLegging",
+					"parent": "rightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "rightBoot",
+					"parent": "rightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "rightSock",
+					"parent": "rightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "leftLeg",
+					"pivot": [1.9, 12, 0],
+					"mirror": true
+				},
+				{
+					"name": "leftLegging",
+					"parent": "leftLeg",
+					"pivot": [1.9, 12, 0],
+					"mirror": true
+				},
+				{
+					"name": "leftBoot",
+					"parent": "leftLeg",
+					"pivot": [1.9, 12, 0],
+					"mirror": true
+				},
+				{
+					"name": "leftSock",
+					"parent": "leftLeg",
+					"pivot": [1.9, 12, 0],
+					"mirror": true
+				},
+				{
+					"name": "helmet",
+					"pivot": [0, 24, 0]
+				}
+			]
+		}
+	]
+}
