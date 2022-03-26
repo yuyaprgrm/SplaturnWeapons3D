@@ -4,8 +4,19 @@
         "stick" : {
            "textures" : "textures/items/stick"
         },
-        "bucket": {
-            "textures" : "textures/items/bucket_empty"
+        "bucket" : {
+           "textures" : [
+              "textures/items/bucket_empty",
+              "textures/items/bucket_milk",
+              "textures/items/bucket_water",
+              "textures/items/bucket_lava",
+              "textures/items/bucket_cod",
+              "textures/items/bucket_salmon",
+              "textures/items/bucket_tropical",
+              "textures/items/bucket_pufferfish",
+              "textures/items/bucket_powder_snow",
+              "textures/items/bucket_axolotl"
+           ]
         }
     }
 }
