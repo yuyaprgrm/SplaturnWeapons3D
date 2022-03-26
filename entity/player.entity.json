@@ -11,7 +11,7 @@
         "textures": {
           "default": "textures/entity/steve",
           "cape": "textures/entity/cape_invisible",
-          "pablo": "textures/entity/splaturn.pablo",
+          "inkbrush": "textures/entity/splaturn.inkbrush",
           "splatbrella": "textures/entity/splaturn.splatbrella",
           "slosher": "textures/entity/splaturn.slosher",
           "octobrush": "textures/entity/splaturn.octobrush",
@@ -20,7 +20,7 @@
         "geometry": {
           "default": "geometry.humanoid.custom",
           "cape": "geometry.cape",
-          "pablo": "geometry.splaturn.pablo",
+          "inkbrush": "geometry.splaturn.inkbrush",
           "splatbrella": "geometry.splaturn.splatbrella",
           "slosher": "geometry.splaturn.slosher",
           "octobrush": "geometry.splaturn.octobrush",
@@ -46,7 +46,7 @@
   
             "variable.map_angle = math.clamp(1 - variable.player_x_rotation / 45.1, 0.0, 1.0);",
             "variable.item_use_normalized = query.main_hand_item_use_duration / query.main_hand_item_max_duration;",
-            "variable.pablo = query.get_equipped_item_name('main_hand') == 'stick';",
+            "variable.inkbrush = query.get_equipped_item_name('main_hand') == 'stick';",
             "variable.splatbrella = query.get_equipped_item_name('main_hand') == 'fishing_rod';",
             "variable.slosher = query.get_equipped_item_name('main_hand') == 'bucket';",
             "variable.octobrush = query.get_equipped_item_name('main_hand') == 'blaze_rod';",
@@ -112,7 +112,7 @@
           { "controller.render.player.first_person": "variable.is_first_person" },
           { "controller.render.player.third_person": "!variable.is_first_person && !variable.map_face_icon" },
           { "controller.render.player.map": "variable.map_face_icon" },
-          { "controller.render.pablo": "variable.pablo" },
+          { "controller.render.inkbrush": "variable.inkbrush" },
           { "controller.render.splatbrella": "variable.splatbrella" },
           { "controller.render.slosher": "variable.slosher" },
           { "controller.render.octobrush": "variable.octobrush" },

@@ -1,11 +1,11 @@
 {
 	"format_version": "1.8.0",
 	"render_controllers": {
-		"controller.render.pablo": {
+		"controller.render.inkbrush": {
 			"textures": [
-				"Texture.pablo"
+				"Texture.inkbrush"
 			],
-			"geometry": "Geometry.pablo",
+			"geometry": "Geometry.inkbrush",
 			"materials": [
 				{
 					"*": "Material.default"

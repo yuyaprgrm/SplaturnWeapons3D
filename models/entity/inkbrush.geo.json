@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.splaturn.pablo",
+				"identifier": "geometry.splaturn.inkbrush",
 				"texture_width": 32,
 				"texture_height": 32,
 				"visible_bounds_width": 2,
@@ -52,14 +52,14 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "pablo",
+					"name": "inkbrush",
 					"parent": "rightArm",
 					"pivot": [-6, 15, 0],
 					"rotation": [180, 0, 0]
 				},
 				{
 					"name": "body2",
-					"parent": "pablo",
+					"parent": "inkbrush",
 					"pivot": [-6, 13, 3]
 				},
 				{
@@ -80,7 +80,7 @@
 				},
 				{
 					"name": "handle",
-					"parent": "pablo",
+					"parent": "inkbrush",
 					"pivot": [-6, 13, 3],
 					"cubes": [
 						{"origin": [-7, 13, 2], "size": [2, 5, 2], "uv": [8, 10]},
