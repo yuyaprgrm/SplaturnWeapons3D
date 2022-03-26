@@ -17,7 +17,8 @@
           "octobrush": "textures/entity/splaturn.octobrush",
           "dynamoroller": "textures/entity/splaturn.dynamoroller",
           "splatroller": "textures/entity/splaturn.splatroller",
-          "splattershot": "textures/entity/splaturn.splattershot"
+          "splattershot": "textures/entity/splaturn.splattershot",
+          "splattershot_jr": "textures/entity/splaturn.splattershot_jr"
         },
         "geometry": {
           "default": "geometry.humanoid.custom",
@@ -28,7 +29,8 @@
           "octobrush": "geometry.splaturn.octobrush",
           "dynamoroller": "geometry.splaturn.dynamoroller",
           "splatroller": "geometry.splaturn.splatroller",
-          "splattershot": "geometry.splaturn.splattershot"
+          "splattershot": "geometry.splaturn.splattershot",
+          "splattershot_jr": "geometry.splaturn.splattershot_jr"
         },
         "scripts": {
           "scale": "0.9375",
@@ -56,7 +58,8 @@
             "variable.octobrush = query.get_equipped_item_name('main_hand') == 'blaze_rod';",
             "variable.dynamoroller = query.get_equipped_item_name('main_hand') == 'stone_pickaxe';",
             "variable.splatroller = query.get_equipped_item_name('main_hand') == 'wooden_pickaxe';",
-            "variable.splattershot = query.get_equipped_item_name('main_hand') == 'stone_hoe';"
+            "variable.splattershot = query.get_equipped_item_name('main_hand') == 'stone_hoe';",
+            "variable.splattershot_jr = query.get_equipped_item_name('main_hand') == 'wooden_hoe';"
           ],
           "animate": [
             "root"
@@ -124,7 +127,8 @@
           { "controller.render.octobrush": "variable.octobrush" },
           { "controller.render.dynamoroller": "variable.dynamoroller" },
           { "controller.render.splatroller": "variable.splatroller" },
-          { "controller.render.splattershot": "variable.splattershot" }
+          { "controller.render.splattershot": "variable.splattershot" },
+          { "controller.render.splattershot_jr": "variable.splattershot_jr" }
         ],
         "enable_attachables": true
       }
