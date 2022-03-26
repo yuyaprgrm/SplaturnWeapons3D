@@ -16,7 +16,8 @@
           "slosher": "textures/entity/splaturn.slosher",
           "octobrush": "textures/entity/splaturn.octobrush",
           "dynamoroller": "textures/entity/splaturn.dynamoroller",
-          "splatroller": "textures/entity/splaturn.splatroller"
+          "splatroller": "textures/entity/splaturn.splatroller",
+          "splattershot": "textures/entity/splaturn.splattershot"
         },
         "geometry": {
           "default": "geometry.humanoid.custom",
@@ -26,7 +27,8 @@
           "slosher": "geometry.splaturn.slosher",
           "octobrush": "geometry.splaturn.octobrush",
           "dynamoroller": "geometry.splaturn.dynamoroller",
-          "splatroller": "geometry.splaturn.splatroller"
+          "splatroller": "geometry.splaturn.splatroller",
+          "splattershot": "geometry.splaturn.splattershot"
         },
         "scripts": {
           "scale": "0.9375",
@@ -53,7 +55,8 @@
             "variable.slosher = query.get_equipped_item_name('main_hand') == 'bucket';",
             "variable.octobrush = query.get_equipped_item_name('main_hand') == 'blaze_rod';",
             "variable.dynamoroller = query.get_equipped_item_name('main_hand') == 'stone_pickaxe';",
-            "variable.splatroller = query.get_equipped_item_name('main_hand') == 'wooden_pickaxe';"
+            "variable.splatroller = query.get_equipped_item_name('main_hand') == 'wooden_pickaxe';",
+            "variable.splattershot = query.get_equipped_item_name('main_hand') == 'stone_hoe';"
           ],
           "animate": [
             "root"
@@ -120,7 +123,8 @@
           { "controller.render.slosher": "variable.slosher" },
           { "controller.render.octobrush": "variable.octobrush" },
           { "controller.render.dynamoroller": "variable.dynamoroller" },
-          { "controller.render.splatroller": "variable.splatroller" }
+          { "controller.render.splatroller": "variable.splatroller" },
+          { "controller.render.splattershot": "variable.splattershot" }
         ],
         "enable_attachables": true
       }
