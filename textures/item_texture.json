@@ -3,6 +3,9 @@
     "texture_data" : {
         "stick" : {
            "textures" : "textures/items/stick"
+        },
+        "bucket": {
+            "textures" : "textures/items/bucket_empty"
         }
     }
 }

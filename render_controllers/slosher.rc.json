@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.slosher": {
+			"textures": [
+				"Texture.slosher"
+			],
+			"geometry": "Geometry.slosher",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			]
+		}
+	}
+}
