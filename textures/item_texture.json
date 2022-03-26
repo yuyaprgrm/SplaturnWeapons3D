@@ -17,6 +17,9 @@
               "textures/items/bucket_powder_snow",
               "textures/items/bucket_axolotl"
            ]
+        },
+        "blaze_rod": {
+            "textures": "textures/items/blaze_rod"
         }
     }
 }
