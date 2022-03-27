@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.splaturn.dynamoroller.idle": {
+			"loop": true,
+			"bones": {
+				"dynamoroller": {
+					"rotation": [-109.88106, -16.05399, -30.95077],
+					"position": [1, -1, -2]
+				},
+				"body2": {
+					"rotation": [0, 90, 0],
+					"position": [-0.5, 0.4, 0]
+				}
+			}
+		},
+		"animation.splaturn.dynamoroller.roll": {
+			"loop": true,
+			"bones": {
+				"dynamoroller": {
+					"rotation": ["2*math.sin(1440* query.life_time)", 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				}
+			}
+		}
+	}
+}

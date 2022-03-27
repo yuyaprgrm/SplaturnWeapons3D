@@ -15,10 +15,14 @@
 				"default": "geometry.splaturn.dynamoroller"
 			},
 			"animations": {
-				"root": "controller.animation.splaturn.dynamoroller",
-				"idle": "animation.splaturn.dynamoroller.idle"
+				"root": "controller.animation.splaturn.roller",
+				"idle": "animation.splaturn.dynamoroller.idle",
+				"roll": "animation.splaturn.dynamoroller.roll"
 			},
 			"scripts": {
+				"pre_animation": [
+					"variable.attack_time = c.owning_entity -> variable.attack_time;"
+				],
 				"animate": [
 					"root"
 				]
