@@ -40,7 +40,7 @@
             "variable.map_angle = math.clamp(1 - variable.player_x_rotation / 45.1, 0.0, 1.0);",
             "variable.item_use_normalized = query.main_hand_item_use_duration / query.main_hand_item_max_duration;",
   
-            "variable.having_roller_weapon = (query.get_equipped_item_name('main_hand') == 'stick' || query.get_equipped_item_name('main_hand') == 'blaze_rod' || query.get_equipped_item_name('main_hand') == 'stone_pickaxe' || query.get_equipped_item_name('main_hand') == 'wooden_pickaxe');"
+            "variable.having_roller_weapon = (query.get_equipped_item_name('main_hand') == 'stick' || query.get_equipped_item_name('main_hand') == 'blaze_rod' || query.get_equipped_item_name('main_hand') == 'stone_pickaxe' || query.get_equipped_item_name('main_hand') == 'wooden_pickaxe' || query.get_equipped_item_name('main_hand') == 'bone');"
           ],
           "animate": [
             "root"
