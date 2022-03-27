@@ -1,0 +1,177 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.splaturn.sploosh_o_matic",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "bodyArmor",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "belt",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "head",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "hat",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "rightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [-6, 15, 1]
+				},
+				{
+					"name": "rightArmArmor",
+					"parent": "rightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "sploosh_o_matic",
+					"parent": "rightArm",
+					"pivot": [-5, 14, -2],
+					"rotation": [52.5, 0, 0]
+				},
+				{
+					"name": "tank",
+					"parent": "sploosh_o_matic",
+					"pivot": [2, 0, 9],
+					"cubes": [
+						{"origin": [-5, 17, -10], "size": [1, 1, 12], "inflate": 0.2, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "holder",
+					"parent": "sploosh_o_matic",
+					"pivot": [-5, 17.75, -2],
+					"cubes": [
+						{"origin": [-5.5, 15, -7], "size": [2, 4, 1], "uv": [14, 4]},
+						{"origin": [-5.5, 17, 0], "size": [2, 2, 1], "uv": [14, 9]},
+						{"origin": [-5, 18, -9], "size": [1, 2, 1], "uv": [7, 6]},
+						{"origin": [-5, 15, -9], "size": [1, 2, 1], "uv": [0, 6]},
+						{"origin": [-5, 17.75, -6], "size": [1, 2, 2], "uv": [17, 13]},
+						{"origin": [-5, 18.75, -4], "size": [1, 1, 1], "uv": [0, 9]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "holder",
+					"pivot": [-4.5, 19.25, -1.5],
+					"rotation": [-10, 0, 0],
+					"cubes": [
+						{"origin": [-5, 18.75, -4], "size": [1, 1, 5], "inflate": -0.1, "uv": [0, 13]}
+					]
+				},
+				{
+					"name": "handle",
+					"parent": "sploosh_o_matic",
+					"pivot": [2, 0, 9],
+					"cubes": [
+						{"origin": [-5, 14.92661, -6.76753], "size": [1, 1, 5], "uv": [0, 6]},
+						{"origin": [-5, 13.4, -3.7], "size": [1, 2, 2], "inflate": -0.01, "uv": [13, 15]}
+					]
+				},
+				{
+					"name": "connector",
+					"parent": "handle",
+					"pivot": [-5, 16.22661, -0.76753],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-5, 15.72661, -2.26753], "size": [1, 1, 3], "uv": [14, 0]}
+					]
+				},
+				{
+					"name": "laucher",
+					"parent": "sploosh_o_matic",
+					"pivot": [-5, 18, -9],
+					"cubes": [
+						{"origin": [-6, 16, -11], "size": [3, 3, 1], "uv": [7, 13]},
+						{"origin": [-7, 15, -12], "size": [5, 5, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "leftArm",
+					"pivot": [5, 22, 0],
+					"mirror": true
+				},
+				{
+					"name": "leftArmArmor",
+					"parent": "leftArm",
+					"pivot": [5, 22, 0],
+					"mirror": true
+				},
+				{
+					"name": "rightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "rightLegging",
+					"parent": "rightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "rightBoot",
+					"parent": "rightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "rightSock",
+					"parent": "rightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "leftLeg",
+					"pivot": [1.9, 12, 0],
+					"mirror": true
+				},
+				{
+					"name": "leftLegging",
+					"parent": "leftLeg",
+					"pivot": [1.9, 12, 0],
+					"mirror": true
+				},
+				{
+					"name": "leftBoot",
+					"parent": "leftLeg",
+					"pivot": [1.9, 12, 0],
+					"mirror": true
+				},
+				{
+					"name": "leftSock",
+					"parent": "leftLeg",
+					"pivot": [1.9, 12, 0],
+					"mirror": true
+				},
+				{
+					"name": "helmet",
+					"pivot": [0, 24, 0]
+				}
+			]
+		}
+	]
+}
