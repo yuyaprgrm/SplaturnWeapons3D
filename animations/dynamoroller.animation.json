@@ -14,13 +14,16 @@
 				}
 			}
 		},
-		"animation.splaturn.dynamoroller.roll": {
+		"animation.splaturn.roller.roll": {
 			"loop": true,
 			"bones": {
 				"dynamoroller": {
-					"rotation": ["2*math.sin(1440* query.life_time)", 0, 0],
+					"rotation": ["5*math.sin(1440* query.life_time)", 0, 0],
 					"position": [0, 0, 0],
 					"scale": 1
+				},
+				"roll": {
+					"rotation": ["720*query.life_time", 0, 0]
 				}
 			}
 		}
