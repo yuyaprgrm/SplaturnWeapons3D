@@ -175,7 +175,7 @@
 							"look_at_target" : "!query.is_sleeping && !query.is_emoting"
 						},
 						{
-							"move.arms": "variable.attack_time == 0.0"
+							"move.arms": "!variable.having_roller_weapon || variable.attack_time == 0.0"
 						},
 						"move.legs",
 						"cape",
