@@ -2,7 +2,7 @@
 	"format_version": "1.8.0",
 	"minecraft:attachable": {
 		"description": {
-			"identifier": "minecraft:stick",
+			"identifier": "minecraft:fishing_rod",
 			"materials": {
 				"default": "entity_alphatest",
 				"enchanted": "entity_alphatest"
