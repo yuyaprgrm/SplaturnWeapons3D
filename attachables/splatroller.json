@@ -1,5 +1,5 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:attachable": {
 		"description": {
 			"identifier": "minecraft:wooden_pickaxe",
@@ -14,8 +14,18 @@
 			"geometry": {
 				"default": "geometry.splaturn.splatroller"
 			},
+			"animations": {
+				"root": "controller.animation.splaturn.roller",
+				"idle": "animation.splaturn.splatroller.idle",
+				"roll": "animation.splaturn.splatroller.roll"
+			},
 			"scripts": {
-				"parent_setup": "variable.splatroller_layer_visible = 0.0;"
+				"pre_animation": [
+					"variable.attack_time = c.owning_entity -> variable.attack_time;"
+				],
+				"animate": [
+					"root"
+				]
 			},
 			"render_controllers": ["controller.render.default"]
 		}
