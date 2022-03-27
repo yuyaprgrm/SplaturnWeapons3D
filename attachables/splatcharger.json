@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:bow",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/weapon/splaturn.splatcharger",
+				"bow_pulling_0": "textures/models/weapon/splaturn.splatcharger",
+				"bow_pulling_1": "textures/models/weapon/splaturn.splatcharger",
+				"bow_pulling_2": "textures/models/weapon/splaturn.splatcharger",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.splaturn.splatcharger",
+				"bow_pulling_0": "geometry.splaturn.splatcharger",
+				"bow_pulling_1": "geometry.splaturn.splatcharger",
+				"bow_pulling_2": "geometry.splaturn.splatcharger"
+			},
+			"animations": {
+				"wield": "animation.bow.wield",
+				"wield_first_person_pull": "animation.bow.wield_first_person_pull"
+			},
+			"scripts": {
+				"animate": [
+					"wield",
+					{
+						"wield_first_person_pull": "query.main_hand_item_use_duration > 0.0f && c.is_first_person"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.bow"]
+		}
+	}
+}
