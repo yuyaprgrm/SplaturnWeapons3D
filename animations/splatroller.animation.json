@@ -4,13 +4,13 @@
 		"animation.splaturn.splatroller.idle": {
 			"loop": true,
 			"bones": {
-				"body2": {
-					"rotation": [-1080, 90, -1080],
-					"position": [-0.5, 0.7, 0]
-				},
 				"splatroller": {
-					"rotation": [-132.45771, -49.57412, -33.72727],
-					"position": [0, 0, 2]
+					"rotation": [-107.50476, 9.84655, -28.48124],
+					"position": [0, 2, 1]
+				},
+				"body2": {
+					"rotation": [0, 90, 0],
+					"position": [-1.5, 0, 0]
 				}
 			}
 		},
@@ -18,9 +18,7 @@
 			"animation_length": 1.95833,
 			"bones": {
 				"splatroller": {
-					"rotation": ["5*math.sin(1440* query.life_time)", 0, 0],
-					"position": [0, 0, 0],
-					"scale": 1
+					"rotation": ["5*math.sin(1440* query.life_time)", 0, 0]
 				},
 				"roller": {
 					"rotation": ["720*query.life_time", 0, 0]
