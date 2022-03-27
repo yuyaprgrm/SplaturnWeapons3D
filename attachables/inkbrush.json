@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:stick",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/weapon/splaturn.inkbrush",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.splaturn.inkbrush"
+			},
+			"scripts": {
+				"parent_setup": "variable.inkbrush_layer_visible = 0.0;"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}

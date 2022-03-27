@@ -10,27 +10,11 @@
         },
         "textures": {
           "default": "textures/entity/steve",
-          "cape": "textures/entity/cape_invisible",
-          "inkbrush": "textures/entity/splaturn.inkbrush",
-          "splatbrella": "textures/entity/splaturn.splatbrella",
-          "slosher": "textures/entity/splaturn.slosher",
-          "octobrush": "textures/entity/splaturn.octobrush",
-          "dynamoroller": "textures/entity/splaturn.dynamoroller",
-          "splatroller": "textures/entity/splaturn.splatroller",
-          "splattershot": "textures/entity/splaturn.splattershot",
-          "splattershot_jr": "textures/entity/splaturn.splattershot_jr"
+          "cape": "textures/entity/cape_invisible"
         },
         "geometry": {
           "default": "geometry.humanoid.custom",
-          "cape": "geometry.cape",
-          "inkbrush": "geometry.splaturn.inkbrush",
-          "splatbrella": "geometry.splaturn.splatbrella",
-          "slosher": "geometry.splaturn.slosher",
-          "octobrush": "geometry.splaturn.octobrush",
-          "dynamoroller": "geometry.splaturn.dynamoroller",
-          "splatroller": "geometry.splaturn.splatroller",
-          "splattershot": "geometry.splaturn.splattershot",
-          "splattershot_jr": "geometry.splaturn.splattershot_jr"
+          "cape": "geometry.cape"
         },
         "scripts": {
           "scale": "0.9375",
@@ -52,14 +36,8 @@
   
             "variable.map_angle = math.clamp(1 - variable.player_x_rotation / 45.1, 0.0, 1.0);",
             "variable.item_use_normalized = query.main_hand_item_use_duration / query.main_hand_item_max_duration;",
-            "variable.inkbrush = query.get_equipped_item_name('main_hand') == 'stick';",
-            "variable.splatbrella = query.get_equipped_item_name('main_hand') == 'fishing_rod';",
-            "variable.slosher = query.get_equipped_item_name('main_hand') == 'bucket';",
-            "variable.octobrush = query.get_equipped_item_name('main_hand') == 'blaze_rod';",
-            "variable.dynamoroller = query.get_equipped_item_name('main_hand') == 'stone_pickaxe';",
-            "variable.splatroller = query.get_equipped_item_name('main_hand') == 'wooden_pickaxe';",
-            "variable.splattershot = query.get_equipped_item_name('main_hand') == 'stone_hoe';",
-            "variable.splattershot_jr = query.get_equipped_item_name('main_hand') == 'wooden_hoe';"
+  
+            "variable.having_roller_weapon = (query.get_equipped_item_name('main_hand') == 'stick' || query.get_equipped_item_name('main_hand') == 'blaze_rod' || query.get_equipped_item_name('main_hand') == 'stone_pickaxe' || query.get_equipped_item_name('main_hand') == 'wooden_pickaxe');"
           ],
           "animate": [
             "root"
@@ -120,15 +98,7 @@
         "render_controllers": [
           { "controller.render.player.first_person": "variable.is_first_person" },
           { "controller.render.player.third_person": "!variable.is_first_person && !variable.map_face_icon" },
-          { "controller.render.player.map": "variable.map_face_icon" },
-          { "controller.render.inkbrush": "variable.inkbrush" },
-          { "controller.render.splatbrella": "variable.splatbrella" },
-          { "controller.render.slosher": "variable.slosher" },
-          { "controller.render.octobrush": "variable.octobrush" },
-          { "controller.render.dynamoroller": "variable.dynamoroller" },
-          { "controller.render.splatroller": "variable.splatroller" },
-          { "controller.render.splattershot": "variable.splattershot" },
-          { "controller.render.splattershot_jr": "variable.splattershot_jr" }
+          { "controller.render.player.map": "variable.map_face_icon" }
         ],
         "enable_attachables": true
       }
