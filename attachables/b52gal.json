@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:diamond_shovel",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/weapon/splaturn.b52gal",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.splaturn.b52gal"
+			},
+			"scripts": {
+				"parent_setup": "variable.b52gal_layer_visible = 0.0;"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}
