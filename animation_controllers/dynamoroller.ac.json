@@ -1,0 +1,17 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.splaturn.dynamoroller" : {
+			"initial_state" : "stay",
+			"states" : {
+				"stay" : {
+					"animations" : [ "idle" ],
+					"transitions" : [
+					]
+				},
+				"swinging_arms" : {
+				}
+			}
+		}
+	}
+}

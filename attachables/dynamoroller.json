@@ -1,5 +1,5 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:attachable": {
 		"description": {
 			"identifier": "minecraft:stone_pickaxe",
@@ -14,8 +14,14 @@
 			"geometry": {
 				"default": "geometry.splaturn.dynamoroller"
 			},
+			"animations": {
+				"root": "controller.animation.splaturn.dynamoroller",
+				"idle": "animation.splaturn.dynamoroller.idle"
+			},
 			"scripts": {
-				"parent_setup": "variable.dynamoroller_layer_visible = 0.0;"
+				"animate": [
+					"root"
+				]
 			},
 			"render_controllers": ["controller.render.default"]
 		}
