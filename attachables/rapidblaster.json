@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:wooden_sword",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/weapon/splaturn.rapidblaster",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.splaturn.rapidblaster"
+			},
+			"animations": {
+				"idle": "animation.splaturn.rapidblaster.idle"
+			},
+			"scripts": {
+				"initialize": [
+					"variable.rapidblaster_layer_visible = 0.0;"
+				],
+				"animate": [
+					"idle"
+				]
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}
