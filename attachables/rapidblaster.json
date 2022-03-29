@@ -15,7 +15,8 @@
 				"default": "geometry.splaturn.rapidblaster"
 			},
 			"animations": {
-				"idle": "animation.splaturn.rapidblaster.idle"
+				"idle": "animation.splaturn.rapidblaster.idle",
+				"firstperson_preset": "animation.splaturn.first_person_preset.blaster"
 			},
 			"scripts": {
 				"initialize": [
