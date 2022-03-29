@@ -1,26 +1,26 @@
 {
-	"format_version": "1.8.0",
-	"animations": {
-		"animation.player.first_person.roll": {
-			"loop": true
-		},
-		"animation.splaturn.first_person_preset.blaster": {
-			"loop": true,
-			"bones": {
-				"weapon": {
-					"rotation": [75.37794, 64.38443, -14.68301],
-					"position": [0, 8, 0]
-				}
-			}
-		},
-		"animation.splaturn.first_person_preset.heavysplatling": {
-			"loop": true,
-			"bones": {
-				"weapon": {
-					"rotation": [83.74738, 65.666, -19.33783],
-					"position": [4, 8, 5]
-				}
-			}
-		}
-	}
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.player.first_person.roll": {
+      "loop": true
+    },
+    "animation.splaturn.first_person_preset.blaster": {
+      "loop": true,
+      "bones": {
+        "weapon": {
+          "rotation": [75.37794, 64.38443, -14.68301],
+          "position": [0, 8, 0]
+        }
+      }
+    },
+    "animation.splaturn.first_person_preset.heavysplatling": {
+      "loop": true,
+      "bones": {
+        "weapon": {
+          "rotation": [83.74738, 65.666, -19.33783],
+          "position": [4, 8, 5]
+        }
+      }
+    }
+  }
 }

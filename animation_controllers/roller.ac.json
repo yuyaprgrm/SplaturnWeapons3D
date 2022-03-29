@@ -1,48 +1,46 @@
 {
-	"format_version" : "1.10.0",
-	"animation_controllers" : {
-		"controller.animation.splaturn.roller" : {
-			"initial_state" : "stay",
-			"states" : {
-				"stay" : {
-					"animations" : [ "idle" ],
-					"blend_transition" : 0.1,
-					"transitions" : [
-                        {
-                            "rolling": "variable.attack_time > 0.0 && !c.is_first_person"
-                        },
-                        {
-                            
-                            "rolling_first_person": "variable.attack_time > 0.0 && c.is_first_person"
-                        }
-					]
-				},
-				"rolling" : {
-					"animations" : [ "roll" ],
-					"blend_transition" : 0.1,
-                    "transitions" : [
-                        {
-                            "stay": "variable.attack_time == 0.0"
-                        },
-                        {
-                            "rolling_first_person": "variable.attack_time > 0.0 && c.is_first_person"
-                        }
-					]
-				},
-				"rolling_first_person" : {
-					"animations" : [ "idle" ],
-					"blend_transition" : 0.1,
-                    "transitions" : [
-                        {
-                            "stay": "variable.attack_time == 0.0"
-                        },
-                        {
-                            
-                            "rolling": "variable.attack_time > 0.0 && !c.is_first_person"
-                        }
-					]
-				}
-			}
-		}
-	}
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.splaturn.roller": {
+      "initial_state": "stay",
+      "states": {
+        "stay": {
+          "animations": ["idle"],
+          "blend_transition": 0.1,
+          "transitions": [
+            {
+              "rolling": "variable.attack_time > 0.0 && !c.is_first_person"
+            },
+            {
+              "rolling_first_person": "variable.attack_time > 0.0 && c.is_first_person"
+            }
+          ]
+        },
+        "rolling": {
+          "animations": ["roll"],
+          "blend_transition": 0.1,
+          "transitions": [
+            {
+              "stay": "variable.attack_time == 0.0"
+            },
+            {
+              "rolling_first_person": "variable.attack_time > 0.0 && c.is_first_person"
+            }
+          ]
+        },
+        "rolling_first_person": {
+          "animations": ["idle"],
+          "blend_transition": 0.1,
+          "transitions": [
+            {
+              "stay": "variable.attack_time == 0.0"
+            },
+            {
+              "rolling": "variable.attack_time > 0.0 && !c.is_first_person"
+            }
+          ]
+        }
+      }
+    }
+  }
 }

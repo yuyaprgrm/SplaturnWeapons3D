@@ -1,13 +1,13 @@
 {
-	"format_version": "1.8.0",
-	"animations": {
-		"animation.splaturn.rapidblaster.idle": {
-			"loop": true,
-			"bones": {
-				"weapon": {
-					"scale": 0.6
-				}
-			}
-		}
-	}
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.splaturn.rapidblaster.idle": {
+      "loop": true,
+      "bones": {
+        "weapon": {
+          "scale": 0.6
+        }
+      }
+    }
+  }
 }

@@ -1,29 +1,29 @@
 {
-	"format_version": "1.8.0",
-	"animations": {
-		"animation.splaturn.splatroller.idle": {
-			"loop": true,
-			"bones": {
-				"weapon": {
-					"rotation": [-107.50476, 9.84655, -28.48124],
-					"position": [0, 2, 1]
-				},
-				"body2": {
-					"rotation": [0, 90, 0],
-					"position": [-1.5, 0, 0]
-				}
-			}
-		},
-		"animation.splaturn.splatroller.roll": {
-			"animation_length": 1.95833,
-			"bones": {
-				"weapon": {
-					"rotation": ["5*math.sin(1440* query.life_time)", 0, 0]
-				},
-				"roller": {
-					"rotation": ["720*query.life_time", 0, 0]
-				}
-			}
-		}
-	}
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.splaturn.splatroller.idle": {
+      "loop": true,
+      "bones": {
+        "weapon": {
+          "rotation": [-107.50476, 9.84655, -28.48124],
+          "position": [0, 2, 1]
+        },
+        "body2": {
+          "rotation": [0, 90, 0],
+          "position": [-1.5, 0, 0]
+        }
+      }
+    },
+    "animation.splaturn.splatroller.roll": {
+      "animation_length": 1.95833,
+      "bones": {
+        "weapon": {
+          "rotation": ["5*math.sin(1440* query.life_time)", 0, 0]
+        },
+        "roller": {
+          "rotation": ["720*query.life_time", 0, 0]
+        }
+      }
+    }
+  }
 }

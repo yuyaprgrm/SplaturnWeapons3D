@@ -1,33 +1,31 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:attachable": {
-		"description": {
-			"identifier": "minecraft:stone_pickaxe",
-			"materials": {
-				"default": "entity_alphatest",
-				"enchanted": "entity_alphatest"
-			},
-			"textures": {
-				"default": "textures/models/weapon/splaturn.dynamoroller",
-				"enchanted": "textures/misc/enchanted_item_glint"
-			},
-			"geometry": {
-				"default": "geometry.splaturn.dynamoroller"
-			},
-			"animations": {
-				"root": "controller.animation.splaturn.roller",
-				"idle": "animation.splaturn.dynamoroller.idle",
-				"roll": "animation.splaturn.dynamoroller.roll"
-			},
-			"scripts": {
-				"pre_animation": [
-					"variable.attack_time = c.owning_entity -> variable.attack_time;"
-				],
-				"animate": [
-					"root"
-				]
-			},
-			"render_controllers": ["controller.render.default"]
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:stone_pickaxe",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/weapon/splaturn.dynamoroller",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.splaturn.dynamoroller"
+      },
+      "animations": {
+        "root": "controller.animation.splaturn.roller",
+        "idle": "animation.splaturn.dynamoroller.idle",
+        "roll": "animation.splaturn.dynamoroller.roll"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.attack_time = c.owning_entity -> variable.attack_time;"
+        ],
+        "animate": ["root"]
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
 }

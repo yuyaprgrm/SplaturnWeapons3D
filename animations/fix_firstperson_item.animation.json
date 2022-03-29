@@ -1,13 +1,13 @@
 {
-	"format_version": "1.8.0",
-	"animations": {
-		"animation.splaturn.first_person_preset.blaster": {
-			"loop": true,
-			"bones": {
-				"weapon": {
-					"rotation": [-70.32369, 22.45861, -105.05605]
-				}
-			}
-		}
-	}
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.splaturn.first_person_preset.blaster": {
+      "loop": true,
+      "bones": {
+        "weapon": {
+          "rotation": [-70.32369, 22.45861, -105.05605]
+        }
+      }
+    }
+  }
 }

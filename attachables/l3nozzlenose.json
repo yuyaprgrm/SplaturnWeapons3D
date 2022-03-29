@@ -1,23 +1,23 @@
 {
-	"format_version": "1.8.0",
-	"minecraft:attachable": {
-		"description": {
-			"identifier": "minecraft:stone_shovel",
-			"materials": {
-				"default": "entity_alphatest",
-				"enchanted": "entity_alphatest"
-			},
-			"textures": {
-				"default": "textures/models/weapon/splaturn.l3nozzlenose",
-				"enchanted": "textures/misc/enchanted_item_glint"
-			},
-			"geometry": {
-				"default": "geometry.splaturn.l3nozzlenose"
-			},
-			"scripts": {
-				"parent_setup": "variable.l3nozzlenose_layer_visible = 0.0;"
-			},
-			"render_controllers": ["controller.render.default"]
-		}
-	}
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:stone_shovel",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/weapon/splaturn.l3nozzlenose",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.splaturn.l3nozzlenose"
+      },
+      "scripts": {
+        "parent_setup": "variable.l3nozzlenose_layer_visible = 0.0;"
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
 }

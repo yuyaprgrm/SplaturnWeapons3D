@@ -1,30 +1,30 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:attachable": {
-		"description": {
-			"identifier": "minecraft:iron_axe",
-			"materials": {
-				"default": "entity_alphatest",
-				"enchanted": "entity_alphatest"
-			},
-			"textures": {
-				"default": "textures/models/weapon/splaturn.heavysplatling",
-				"enchanted": "textures/misc/enchanted_item_glint"
-			},
-			"geometry": {
-				"default": "geometry.splaturn.heavysplatling"
-			},
-			"animations": {
-				"firstperson_preset": "animation.splaturn.first_person_preset.heavysplatling"
-			},
-			"scripts": {
-				"animate": [
-					{
-						"firstperson_preset": "c.is_first_person"
-					}
-				]
-			},
-			"render_controllers": ["controller.render.default"]
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:iron_axe",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/weapon/splaturn.heavysplatling",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.splaturn.heavysplatling"
+      },
+      "animations": {
+        "firstperson_preset": "animation.splaturn.first_person_preset.heavysplatling"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "firstperson_preset": "c.is_first_person"
+          }
+        ]
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
 }
