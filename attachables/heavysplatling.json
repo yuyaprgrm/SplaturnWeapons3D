@@ -1,5 +1,5 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:attachable": {
 		"description": {
 			"identifier": "minecraft:iron_axe",
@@ -14,8 +14,15 @@
 			"geometry": {
 				"default": "geometry.splaturn.heavysplatling"
 			},
+			"animations": {
+				"firstperson_preset": "animation.splaturn.first_person_preset.heavysplatling"
+			},
 			"scripts": {
-				"parent_setup": "variable.heavysplatling_layer_visible = 0.0;"
+				"animate": [
+					{
+						"firstperson_preset": "c.is_first_person"
+					}
+				]
 			},
 			"render_controllers": ["controller.render.default"]
 		}
