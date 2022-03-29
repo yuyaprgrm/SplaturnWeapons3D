@@ -52,14 +52,14 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "inkbrush",
+					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-6, 15, 0],
 					"rotation": [180, 0, 0]
 				},
 				{
 					"name": "body2",
-					"parent": "inkbrush",
+					"parent": "weapon",
 					"pivot": [-6, 13, 3]
 				},
 				{
@@ -80,7 +80,7 @@
 				},
 				{
 					"name": "handle",
-					"parent": "inkbrush",
+					"parent": "weapon",
 					"pivot": [-6, 13, 3],
 					"cubes": [
 						{"origin": [-7, 13, 2], "size": [2, 5, 2], "uv": [8, 10]},

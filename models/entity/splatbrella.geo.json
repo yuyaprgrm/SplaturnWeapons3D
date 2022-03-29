@@ -52,14 +52,14 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "splat_brella",
+					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-6, 21, -8],
 					"rotation": [135, 0, 0]
 				},
 				{
 					"name": "pole",
-					"parent": "splat_brella",
+					"parent": "weapon",
 					"pivot": [-6, 21, -8],
 					"cubes": [
 						{"origin": [-7, 21, -18], "size": [1, 11, 1], "uv": [28, 33]}
@@ -67,7 +67,7 @@
 				},
 				{
 					"name": "vent",
-					"parent": "splat_brella",
+					"parent": "weapon",
 					"pivot": [-6, 21, -8],
 					"cubes": [
 						{"origin": [-10, 32, -21], "size": [7, 1, 7], "uv": [0, 32]}

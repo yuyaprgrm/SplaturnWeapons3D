@@ -4,7 +4,7 @@
 		"animation.splaturn.rapidblaster.idle": {
 			"loop": true,
 			"bones": {
-				"rapidblaster": {
+				"weapon": {
 					"scale": 0.6
 				}
 			}

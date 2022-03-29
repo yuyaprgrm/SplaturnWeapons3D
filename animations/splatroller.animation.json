@@ -4,7 +4,7 @@
 		"animation.splaturn.splatroller.idle": {
 			"loop": true,
 			"bones": {
-				"splatroller": {
+				"weapon": {
 					"rotation": [-107.50476, 9.84655, -28.48124],
 					"position": [0, 2, 1]
 				},
@@ -17,7 +17,7 @@
 		"animation.splaturn.splatroller.roll": {
 			"animation_length": 1.95833,
 			"bones": {
-				"splatroller": {
+				"weapon": {
 					"rotation": ["5*math.sin(1440* query.life_time)", 0, 0]
 				},
 				"roller": {

@@ -52,14 +52,14 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "splattershot",
+					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-6, 13, -3],
 					"rotation": [60, 0, 0]
 				},
 				{
 					"name": "laucher",
-					"parent": "splattershot",
+					"parent": "weapon",
 					"pivot": [-4, 6, 3],
 					"cubes": [
 						{"origin": [-6, 16, -9], "size": [1, 1, 1], "uv": [3, 5]},
@@ -68,7 +68,7 @@
 				},
 				{
 					"name": "holder",
-					"parent": "splattershot",
+					"parent": "weapon",
 					"pivot": [-4, 6, 3],
 					"cubes": [
 						{"origin": [-7, 15, -8], "size": [3, 3, 7], "inflate": 0.1, "uv": [0, 10]}
@@ -76,7 +76,7 @@
 				},
 				{
 					"name": "tank",
-					"parent": "splattershot",
+					"parent": "weapon",
 					"pivot": [-4, 6, 3],
 					"cubes": [
 						{"origin": [-7, 15, -8], "size": [3, 3, 7], "uv": [0, 0]}
@@ -93,7 +93,7 @@
 				},
 				{
 					"name": "handle",
-					"parent": "splattershot",
+					"parent": "weapon",
 					"pivot": [-4, 6, 3],
 					"cubes": [
 						{"origin": [-6, 14, -7], "size": [1, 1, 5], "uv": [13, 0]},

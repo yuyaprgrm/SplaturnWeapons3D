@@ -52,14 +52,14 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "rapidblaster",
+					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-8, 13, -1],
 					"rotation": [175, 0, 180]
 				},
 				{
 					"name": "launcher",
-					"parent": "rapidblaster",
+					"parent": "weapon",
 					"pivot": [-16, 4, -8],
 					"cubes": [
 						{"origin": [-10.5, 23.5, 20], "size": [5, 5, 5], "inflate": -0.5, "uv": [0, 13]},
@@ -69,7 +69,7 @@
 				},
 				{
 					"name": "body2",
-					"parent": "rapidblaster",
+					"parent": "weapon",
 					"pivot": [-16, 5, -8],
 					"cubes": [
 						{"origin": [-9, 18.3, -1.3], "size": [2, 3, 10], "inflate": 1.5, "uv": [0, 0]},
@@ -85,7 +85,7 @@
 				},
 				{
 					"name": "handle",
-					"parent": "rapidblaster",
+					"parent": "weapon",
 					"pivot": [-16, 4, -8],
 					"cubes": [
 						{"origin": [-9, 12, -2], "size": [2, 5, 3], "uv": [0, 0]},

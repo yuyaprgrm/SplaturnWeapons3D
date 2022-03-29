@@ -52,14 +52,14 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "sploosh_o_matic",
+					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-5, 14, -2],
 					"rotation": [52.5, 0, 0]
 				},
 				{
 					"name": "tank",
-					"parent": "sploosh_o_matic",
+					"parent": "weapon",
 					"pivot": [2, 0, 9],
 					"cubes": [
 						{"origin": [-5, 17, -10], "size": [1, 1, 12], "inflate": 0.2, "uv": [0, 0]}
@@ -67,7 +67,7 @@
 				},
 				{
 					"name": "holder",
-					"parent": "sploosh_o_matic",
+					"parent": "weapon",
 					"pivot": [-5, 17.75, -2],
 					"cubes": [
 						{"origin": [-5.5, 15, -7], "size": [2, 4, 1], "uv": [14, 4]},
@@ -89,7 +89,7 @@
 				},
 				{
 					"name": "handle",
-					"parent": "sploosh_o_matic",
+					"parent": "weapon",
 					"pivot": [2, 0, 9],
 					"cubes": [
 						{"origin": [-5, 14.92661, -6.76753], "size": [1, 1, 5], "uv": [0, 6]},
@@ -107,7 +107,7 @@
 				},
 				{
 					"name": "laucher",
-					"parent": "sploosh_o_matic",
+					"parent": "weapon",
 					"pivot": [-5, 18, -9],
 					"cubes": [
 						{"origin": [-6, 16, -11], "size": [3, 3, 1], "uv": [7, 13]},

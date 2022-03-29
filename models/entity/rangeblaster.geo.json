@@ -42,14 +42,14 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "rangeblaster",
+					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-8.5, 13, -2],
 					"rotation": [20, -2.5, 0]
 				},
 				{
 					"name": "holder",
-					"parent": "rangeblaster",
+					"parent": "weapon",
 					"pivot": [-5, 13, -7],
 					"cubes": [
 						{"origin": [-9, 19, -4], "size": [1, 1, 6], "uv": [24, 0]},
@@ -62,7 +62,7 @@
 				},
 				{
 					"name": "tank",
-					"parent": "rangeblaster",
+					"parent": "weapon",
 					"pivot": [-8.5, 17, 1],
 					"rotation": [12.5, 0, 0],
 					"cubes": [
@@ -74,7 +74,7 @@
 				},
 				{
 					"name": "launcher",
-					"parent": "rangeblaster",
+					"parent": "weapon",
 					"pivot": [-5, 13, -11],
 					"cubes": [
 						{"origin": [-12.5, 12.5, -12], "size": [8, 8, 1], "uv": [0, 24]},
@@ -93,7 +93,7 @@
 				},
 				{
 					"name": "handle",
-					"parent": "rangeblaster",
+					"parent": "weapon",
 					"pivot": [-5, 13, -7],
 					"cubes": [
 						{"origin": [-9, 13, -11], "size": [1, 1, 8], "uv": [40, 7]}

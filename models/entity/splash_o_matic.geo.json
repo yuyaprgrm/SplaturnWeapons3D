@@ -52,14 +52,14 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "splash_o_matic",
+					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-6, 14, -2],
 					"rotation": [60, 0, 0]
 				},
 				{
 					"name": "tank",
-					"parent": "splash_o_matic",
+					"parent": "weapon",
 					"pivot": [1, 0, 9],
 					"cubes": [
 						{"origin": [-6, 17, -10], "size": [1, 1, 12], "inflate": 0.2, "uv": [0, 0]}
@@ -67,7 +67,7 @@
 				},
 				{
 					"name": "holder",
-					"parent": "splash_o_matic",
+					"parent": "weapon",
 					"pivot": [-6, 17.75, -2],
 					"cubes": [
 						{"origin": [-6.5, 15, -7], "size": [2, 4, 1], "uv": [0, 0]},
@@ -89,7 +89,7 @@
 				},
 				{
 					"name": "handle",
-					"parent": "splash_o_matic",
+					"parent": "weapon",
 					"pivot": [1, 0, 9],
 					"cubes": [
 						{"origin": [-6, 14.92661, -6.76753], "size": [1, 1, 5], "uv": [0, 0]},
@@ -107,7 +107,7 @@
 				},
 				{
 					"name": "laucher",
-					"parent": "splash_o_matic",
+					"parent": "weapon",
 					"pivot": [-6, 18, -9],
 					"cubes": [
 						{"origin": [-6, 17, -12], "size": [1, 1, 3], "inflate": -0.2, "uv": [0, 0]}

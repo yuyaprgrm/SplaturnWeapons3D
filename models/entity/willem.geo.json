@@ -42,7 +42,7 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "willem",
+					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-7, 13, -2],
 					"rotation": [-115.99143, -53.28315, 107.7552],

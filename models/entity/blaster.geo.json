@@ -52,14 +52,14 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "blaster",
+					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-8.5, 13, -2],
 					"rotation": [20, -2.5, 0]
 				},
 				{
 					"name": "holder",
-					"parent": "blaster",
+					"parent": "weapon",
 					"pivot": [-5, 13, -7],
 					"cubes": [
 						{"origin": [-9, 19, -4], "size": [1, 1, 6], "uv": [24, 0]}
@@ -67,7 +67,7 @@
 				},
 				{
 					"name": "tank",
-					"parent": "blaster",
+					"parent": "weapon",
 					"pivot": [-8.5, 17, 1],
 					"rotation": [12.5, 0, 0],
 					"cubes": [
@@ -79,7 +79,7 @@
 				},
 				{
 					"name": "launcher",
-					"parent": "blaster",
+					"parent": "weapon",
 					"pivot": [-5, 13, -7],
 					"cubes": [
 						{"origin": [-12.5, 12.5, -8], "size": [8, 8, 1], "uv": [0, 24]},
@@ -101,7 +101,7 @@
 				},
 				{
 					"name": "handle",
-					"parent": "blaster",
+					"parent": "weapon",
 					"pivot": [-5, 13, -7],
 					"cubes": [
 						{"origin": [-9, 13, -5], "size": [1, 1, 2], "uv": [16, 17]}

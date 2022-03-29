@@ -42,14 +42,14 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "splatroller",
+					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-6, 13, -3],
 					"rotation": [35, 0, 0]
 				},
 				{
 					"name": "handle",
-					"parent": "splatroller",
+					"parent": "weapon",
 					"pivot": [-7, 13.44098, -3.19215],
 					"cubes": [
 						{"origin": [-7, 11.94098, -17.69215], "size": [1, 1, 8], "uv": [0, 10]},
@@ -60,7 +60,7 @@
 				},
 				{
 					"name": "body2",
-					"parent": "splatroller",
+					"parent": "weapon",
 					"pivot": [-4, 13.44098, -16.19215]
 				},
 				{

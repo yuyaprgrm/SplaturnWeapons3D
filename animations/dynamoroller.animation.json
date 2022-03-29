@@ -4,7 +4,7 @@
 		"animation.splaturn.dynamoroller.idle": {
 			"loop": true,
 			"bones": {
-				"dynamoroller": {
+				"weapon": {
 					"rotation": [-109.88106, -16.05399, -30.95077],
 					"position": [1, -1, -2]
 				},
@@ -17,7 +17,7 @@
 		"animation.splaturn.roller.roll": {
 			"loop": true,
 			"bones": {
-				"dynamoroller": {
+				"weapon": {
 					"rotation": ["5*math.sin(1440* query.life_time)", 0, 0],
 					"position": [0, 0, 0],
 					"scale": 1
