@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:iron_axe",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/weapon/splaturn.heavysplatling",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.splaturn.heavysplatling"
+			},
+			"scripts": {
+				"parent_setup": "variable.heavysplatling_layer_visible = 0.0;"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}
