@@ -1,5 +1,5 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:attachable": {
 		"description": {
 			"identifier": "minecraft:stone_sword",
@@ -14,8 +14,15 @@
 			"geometry": {
 				"default": "geometry.splaturn.blaster"
 			},
+			"animations": {
+				"firstperson_preset": "animation.splaturn.first_person_preset.blaster"
+			},
 			"scripts": {
-				"parent_setup": "variable.blaster_layer_visible = 0.0;"
+				"animate": [
+					{
+						"firstperson_preset": "c.is_first_person"
+					}
+				]
 			},
 			"render_controllers": ["controller.render.default"]
 		}
