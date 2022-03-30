@@ -55,7 +55,7 @@
 					"name": "weapon",
 					"parent": "rightArm",
 					"pivot": [-8, 13, -1],
-					"rotation": [175, 0, 180]
+					"rotation": [-5, 180, 0]
 				},
 				{
 					"name": "launcher",
