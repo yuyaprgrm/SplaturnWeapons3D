@@ -15,7 +15,7 @@
         "default": "geometry.splaturn.lunablaster"
       },
       "animations": {
-        "idle": "animation.splaturn.rapidblaster.idle",
+        "idle": "animation.splaturn.lunablaster.idle",
         "direction": "animation.splaturn.shooter.direction"
       },
       "scripts": {

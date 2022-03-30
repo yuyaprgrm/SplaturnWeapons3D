@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.splaturn.lunablaster.idle": {
+			"loop": true,
+			"bones": {
+				"weapon": {
+					"scale": 0.5
+				}
+			}
+		}
+	}
+}
