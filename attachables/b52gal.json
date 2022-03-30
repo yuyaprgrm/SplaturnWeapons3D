@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
       "identifier": "minecraft:diamond_shovel",
@@ -14,8 +14,11 @@
       "geometry": {
         "default": "geometry.splaturn.b52gal"
       },
+      "animations": {
+        "direction": "animation.splaturn.shooter.direction"
+      },
       "scripts": {
-        "parent_setup": "variable.b52gal_layer_visible = 0.0;"
+        "animate": ["direction"]
       },
       "render_controllers": ["controller.render.default"]
     }

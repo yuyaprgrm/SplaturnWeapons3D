@@ -15,13 +15,15 @@
         "default": "geometry.splaturn.heavysplatling"
       },
       "animations": {
-        "firstperson_preset": "animation.splaturn.first_person_preset.heavysplatling"
+        "firstperson_preset": "animation.splaturn.first_person_preset.heavysplatling",
+        "direction": "animation.splaturn.shooter.direction"
       },
       "scripts": {
         "animate": [
           {
             "firstperson_preset": "c.is_first_person"
-          }
+          },
+          "direction"
         ]
       },
       "render_controllers": ["controller.render.default"]

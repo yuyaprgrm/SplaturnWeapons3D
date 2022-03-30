@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
       "identifier": "minecraft:stone_shovel",
@@ -14,8 +14,11 @@
       "geometry": {
         "default": "geometry.splaturn.l3nozzlenose"
       },
+      "animations": {
+        "direction": "animation.splaturn.shooter.direction"
+      },
       "scripts": {
-        "parent_setup": "variable.l3nozzlenose_layer_visible = 0.0;"
+        "animate": ["direction"]
       },
       "render_controllers": ["controller.render.default"]
     }

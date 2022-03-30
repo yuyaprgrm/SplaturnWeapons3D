@@ -15,11 +15,12 @@
         "default": "geometry.splaturn.lunablaster"
       },
       "animations": {
-        "idle": "animation.splaturn.rapidblaster.idle"
+        "idle": "animation.splaturn.rapidblaster.idle",
+        "direction": "animation.splaturn.shooter.direction"
       },
       "scripts": {
         "initialize": ["variable.lunablaster_layer_visible = 0.0;"],
-        "animate": ["idle"]
+        "animate": ["idle","direction"]
       },
       "render_controllers": ["controller.render.default"]
     }

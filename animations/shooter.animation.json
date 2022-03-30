@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.splaturn.shooter.direction": {
+			"loop": true,
+			"bones": {
+				"weapon": {
+					"rotation": ["c.owning_entity->query.head_x_rotation(0)", "c.owning_entity->query.head_y_rotation(0) - c.owning_entity->query.body_y_rotation", 0]
+				}
+			}
+		}
+	}
+}

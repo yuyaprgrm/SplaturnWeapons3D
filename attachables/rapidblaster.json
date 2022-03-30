@@ -16,7 +16,8 @@
       },
       "animations": {
         "idle": "animation.splaturn.rapidblaster.idle",
-        "firstperson_preset": "animation.splaturn.first_person_preset.blaster"
+        "firstperson_preset": "animation.splaturn.first_person_preset.blaster",
+        "direction": "animation.splaturn.shooter.direction"
       },
       "scripts": {
         "initialize": ["variable.rapidblaster_layer_visible = 0.0;"],
