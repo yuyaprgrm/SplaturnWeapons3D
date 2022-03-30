@@ -21,7 +21,7 @@
       },
       "scripts": {
         "initialize": ["variable.rapidblaster_layer_visible = 0.0;"],
-        "animate": ["idle"]
+        "animate": ["idle", "direction"]
       },
       "render_controllers": ["controller.render.default"]
     }
