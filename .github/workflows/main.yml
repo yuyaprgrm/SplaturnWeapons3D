@@ -19,6 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: compress pack
-        uses: famima65536/minecraft-bedrock-resourcepacks-compressor@master
+        uses: famima65536/resourcepack-compressor@master
         with:
           pack-name: SplaturnWeapons3D
