@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.splaturn.dual_squelcher.idle": {
+			"loop": true,
+			"bones": {
+				"weapon": {
+					"scale": 0.35
+				}
+			}
+		}
+	}
+}
