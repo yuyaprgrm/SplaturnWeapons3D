@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.splaturn.splatbrella",
+				"identifier": "geometry.splaturn.splat_brella",
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 3,

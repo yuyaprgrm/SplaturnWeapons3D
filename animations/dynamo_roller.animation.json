@@ -1,7 +1,7 @@
 {
   "format_version": "1.8.0",
   "animations": {
-    "animation.splaturn.dynamoroller.idle": {
+    "animation.splaturn.dynamo_roller.idle": {
       "loop": true,
       "bones": {
         "weapon": {

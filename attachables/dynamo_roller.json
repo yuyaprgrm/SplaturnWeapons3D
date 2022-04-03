@@ -8,16 +8,16 @@
         "enchanted": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/models/weapon/splaturn.dynamoroller",
+        "default": "textures/models/weapon/splaturn.dynamo_roller",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
-        "default": "geometry.splaturn.dynamoroller"
+        "default": "geometry.splaturn.dynamo_roller"
       },
       "animations": {
         "root": "controller.animation.splaturn.roller",
-        "idle": "animation.splaturn.dynamoroller.idle",
-        "roll": "animation.splaturn.dynamoroller.roll"
+        "idle": "animation.splaturn.dynamo_roller.idle",
+        "roll": "animation.splaturn.dynamo_roller.roll"
       },
       "scripts": {
         "pre_animation": [

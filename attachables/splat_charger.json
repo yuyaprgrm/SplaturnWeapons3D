@@ -8,17 +8,17 @@
         "enchanted": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/models/weapon/splaturn.splatcharger",
-        "bow_pulling_0": "textures/models/weapon/splaturn.splatcharger",
-        "bow_pulling_1": "textures/models/weapon/splaturn.splatcharger",
-        "bow_pulling_2": "textures/models/weapon/splaturn.splatcharger",
+        "default": "textures/models/weapon/splaturn.splat_charger",
+        "bow_pulling_0": "textures/models/weapon/splaturn.splat_charger",
+        "bow_pulling_1": "textures/models/weapon/splaturn.splat_charger",
+        "bow_pulling_2": "textures/models/weapon/splaturn.splat_charger",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
-        "default": "geometry.splaturn.splatcharger",
-        "bow_pulling_0": "geometry.splaturn.splatcharger",
-        "bow_pulling_1": "geometry.splaturn.splatcharger",
-        "bow_pulling_2": "geometry.splaturn.splatcharger"
+        "default": "geometry.splaturn.splat_charger",
+        "bow_pulling_0": "geometry.splaturn.splat_charger",
+        "bow_pulling_1": "geometry.splaturn.splat_charger",
+        "bow_pulling_2": "geometry.splaturn.splat_charger"
       },
       "animations": {
         "wield": "animation.bow.wield",

@@ -2,20 +2,20 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "minecraft:iron_sword",
+      "identifier": "minecraft:iron_axe",
       "materials": {
         "default": "entity_alphatest",
         "enchanted": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/models/weapon/splaturn.rangeblaster",
+        "default": "textures/models/weapon/splaturn.heavy_splatling",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
-        "default": "geometry.splaturn.rangeblaster"
+        "default": "geometry.splaturn.heavy_splatling"
       },
       "animations": {
-        "firstperson_preset": "animation.splaturn.first_person_preset.blaster",
+        "firstperson_preset": "animation.splaturn.first_person_preset.heavy_splatling",
         "direction": "animation.splaturn.shooter.direction"
       },
       "scripts": {

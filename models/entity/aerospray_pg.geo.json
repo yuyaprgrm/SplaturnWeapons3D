@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.splaturn.aerospraypg",
+				"identifier": "geometry.splaturn.aerospray_pg",
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 5,

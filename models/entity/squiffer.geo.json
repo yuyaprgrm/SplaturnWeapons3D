@@ -3,12 +3,12 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.splaturn.t3nozzlenose",
-				"texture_width": 32,
-				"texture_height": 32,
+				"identifier": "geometry.splaturn.squiffer",
+				"texture_width": 64,
+				"texture_height": 64,
 				"visible_bounds_width": 5,
-				"visible_bounds_height": 2,
-				"visible_bounds_offset": [0, 1, 0]
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
 			},
 			"bones": [
 				{
@@ -54,50 +54,59 @@
 				{
 					"name": "weapon",
 					"parent": "rightArm",
-					"pivot": [0, 3, 3],
-					"rotation": [20, 0, 0]
+					"pivot": [-6.5, 14, -2],
+					"rotation": [42.5, 0, 0]
+				},
+				{
+					"name": "barrel",
+					"parent": "weapon",
+					"pivot": [-6, 14, -23],
+					"cubes": [
+						{"origin": [-7, 18, -27], "size": [1, 1, 25], "uv": [0, 0]},
+						{"origin": [-7, 17.5, -28], "size": [1, 1, 1], "uv": [18, 16]},
+						{"origin": [-8, 18.5, -28], "size": [3, 1, 1], "uv": [17, 0]},
+						{"origin": [-7.5, 18, -28], "size": [2, 1, 1], "uv": [18, 12]}
+					]
+				},
+				{
+					"name": "tank",
+					"parent": "weapon",
+					"pivot": [-6, 14, 0],
+					"cubes": [
+						{"origin": [-7.5, 17.5, -2], "size": [2, 2, 2], "uv": [27, 0]},
+						{"origin": [-8, 16, 3], "size": [3, 6, 5], "uv": [0, 0]},
+						{"origin": [-7.5, 17.5, 0], "size": [2, 3, 2], "uv": [14, 20]},
+						{"origin": [-7.5, 18.5, 1], "size": [2, 3, 2], "uv": [11, 0]}
+					]
 				},
 				{
 					"name": "holder",
 					"parent": "weapon",
-					"pivot": [0, 3, 3],
+					"pivot": [-6, 14, -23],
 					"cubes": [
-						{"origin": [-7, 17, 0], "size": [1, 8, 1], "uv": [12, 21]},
-						{"origin": [-7, 17, -9], "size": [1, 6, 2], "uv": [16, 22]},
-						{"origin": [-7, 19.5, -10], "size": [1, 1, 1], "uv": [13, 12]},
-						{"origin": [-7, 23.5, -7], "size": [1, 1, 7], "uv": [10, 0]},
-						{"origin": [-7, 16.5, -7], "size": [1, 1, 8], "uv": [0, 0]}
-					]
-				},
-				{
-					"name": "hose",
-					"parent": "weapon",
-					"pivot": [0, 6.5, 1],
-					"cubes": [
-						{"origin": [-8.5, 18.5, -6], "size": [4, 4, 5], "uv": [0, 9]},
-						{"origin": [-9, 17.9, -7], "size": [5, 5, 1], "uv": [0, 18]},
-						{"origin": [-9, 17.9, -1], "size": [5, 5, 1], "uv": [17, 8]}
+						{"origin": [-8, 17, -7], "size": [3, 3, 5], "uv": [0, 11]},
+						{"origin": [-8, 16, -10], "size": [2, 1, 5], "uv": [0, 19]},
+						{"origin": [-8, 15, -9], "size": [2, 1, 2], "uv": [27, 8]},
+						{"origin": [-7, 16, -16], "size": [1, 1, 6], "uv": [14, 26]},
+						{"origin": [-6, 16, -20], "size": [1, 1, 6], "uv": [10, 13]},
+						{"origin": [-6, 17, -24], "size": [1, 1, 5], "uv": [22, 26]},
+						{"origin": [-5, 17, -27], "size": [1, 1, 5], "uv": [0, 26]},
+						{"origin": [-5, 18, -27], "size": [1, 1, 1], "uv": [18, 14]},
+						{"origin": [-6, 19, -27], "size": [1, 1, 1], "uv": [11, 14]},
+						{"origin": [-7, 20, -20], "size": [1, 1, 12], "uv": [0, 26]},
+						{"origin": [-7, 21, -8], "size": [1, 1, 1], "uv": [11, 12]},
+						{"origin": [-7, 21, -22], "size": [1, 1, 3], "uv": [27, 4]},
+						{"origin": [-7, 20, -27], "size": [1, 1, 6], "uv": [11, 5]},
+						{"origin": [-7, 18, -10], "size": [1, 3, 1], "inflate": 0.2, "uv": [0, 11]},
+						{"origin": [-7, 18, -17], "size": [1, 3, 1], "inflate": 0.2, "uv": [0, 0]}
 					]
 				},
 				{
 					"name": "handle",
 					"parent": "weapon",
-					"pivot": [0, 3, 3],
+					"pivot": [-6, 14, -23],
 					"cubes": [
-						{"origin": [-7, 14, 1], "size": [1, 4, 2], "uv": [10, 0]},
-						{"origin": [-8, 20.5, -9], "size": [3, 3, 2], "uv": [12, 24]},
-						{"origin": [-7, 17.68055, 2.54318], "size": [1, 4, 1], "uv": [0, 9]},
-						{"origin": [-7, 21.24615, 3.06826], "size": [1, 2, 1], "uv": [13, 9]},
-						{"origin": [-7, 22.24615, 3.06826], "size": [1, 1, 3], "uv": [0, 0]},
-						{"origin": [-7, 19.6805, 1], "size": [1, 1, 2], "uv": [0, 4]}
-					]
-				},
-				{
-					"name": "nozzle",
-					"parent": "weapon",
-					"pivot": [-1, 9, -9],
-					"cubes": [
-						{"origin": [-7.5, 21, -12], "size": [2, 2, 3], "uv": [0, 24]}
+						{"origin": [-7, 14, -4], "size": [1, 4, 2], "pivot": [-6.5, 15, -3], "rotation": [20, 0, 0], "uv": [35, 0]}
 					]
 				},
 				{

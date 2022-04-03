@@ -2,29 +2,23 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "minecraft:golden_axe",
+      "identifier": "minecraft:golden_hoe",
       "materials": {
         "default": "entity_alphatest",
         "enchanted": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/models/weapon/splaturn.hydrasplatling",
+        "default": "textures/models/weapon/splaturn.splattershot_pro",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
-        "default": "geometry.splaturn.hydrasplatling"
+        "default": "geometry.splaturn.splattershot_pro"
       },
       "animations": {
-        "firstperson_preset": "animation.splaturn.first_person_preset.heavysplatling",
         "direction": "animation.splaturn.shooter.direction"
       },
       "scripts": {
-        "animate": [
-          {
-            "firstperson_preset": "c.is_first_person"
-          },
-          "direction"
-        ]
+        "animate": ["direction"]
       },
       "render_controllers": ["controller.render.default"]
     }

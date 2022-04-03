@@ -2,23 +2,23 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "minecraft:bowl",
+      "identifier": "minecraft:wooden_axe",
       "materials": {
         "default": "entity_alphatest",
         "enchanted": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/models/weapon/splaturn.splatladle",
+        "default": "textures/models/weapon/splaturn.t3_nozzlenose",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
-        "default": "geometry.splaturn.splatladle"
+        "default": "geometry.splaturn.t3_nozzlenose"
       },
       "animations": {
-        "idle": "animation.splaturn.splatladle.idle"
+        "direction": "animation.splaturn.shooter.direction"
       },
       "scripts": {
-        "animate": ["idle"]
+        "animate": ["direction"]
       },
       "render_controllers": ["controller.render.default"]
     }

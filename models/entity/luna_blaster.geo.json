@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.splaturn.splatroller",
+				"identifier": "geometry.splaturn.luna_blaster",
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 5,
@@ -42,48 +42,6 @@
 					"pivot": [-5, 22, 0]
 				},
 				{
-					"name": "weapon",
-					"parent": "rightArm",
-					"pivot": [-6, 13, -3],
-					"rotation": [35, 0, 0]
-				},
-				{
-					"name": "handle",
-					"parent": "weapon",
-					"pivot": [-7, 13.44098, -3.19215],
-					"cubes": [
-						{"origin": [-7, 11.94098, -17.69215], "size": [1, 1, 8], "uv": [0, 10]},
-						{"origin": [-7, 12.94098, -10.69215], "size": [1, 1, 9], "uv": [12, 17]},
-						{"origin": [-7.5, 12.94098, -16.69215], "size": [2, 2, 5], "uv": [10, 10]},
-						{"origin": [-8, 12.94098, -17.69215], "size": [3, 3, 1], "uv": [0, 10]}
-					]
-				},
-				{
-					"name": "body2",
-					"parent": "weapon",
-					"pivot": [-4, 13.44098, -16.19215]
-				},
-				{
-					"name": "roller",
-					"parent": "body2",
-					"pivot": [-7, 13.44098, -24.19215],
-					"cubes": [
-						{"origin": [-19, 11.44098, -26.19215], "size": [24, 4, 4], "uv": [0, 0]}
-					]
-				},
-				{
-					"name": "shaft",
-					"parent": "body2",
-					"pivot": [6, 13.44098, -25.19215],
-					"cubes": [
-						{"origin": [5, 12.94098, -24.69215], "size": [3, 1, 1], "uv": [0, 14]},
-						{"origin": [-5, 12.94098, -17.69215], "size": [13, 1, 1], "uv": [0, 8]},
-						{"origin": [9, 12.94098, -22.69215], "size": [1, 1, 4], "uv": [0, 19]},
-						{"origin": [8, 12.94098, -23.69215], "size": [1, 1, 1], "uv": [0, 2]},
-						{"origin": [8, 12.94098, -18.69215], "size": [1, 1, 1], "uv": [0, 0]}
-					]
-				},
-				{
 					"name": "rightItem",
 					"parent": "rightArm",
 					"pivot": [-6, 15, 1]
@@ -92,6 +50,43 @@
 					"name": "rightArmArmor",
 					"parent": "rightArm",
 					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "weapon",
+					"parent": "rightArm",
+					"pivot": [-7, 15, -2]
+				},
+				{
+					"name": "tank",
+					"parent": "weapon",
+					"pivot": [-4, 20, -1.5],
+					"cubes": [
+						{"origin": [-7.5, 23.5, 0], "size": [1, 1, 3], "uv": [37, 22]},
+						{"origin": [-9.5, 33.5, -21], "size": [5, 5, 5], "pivot": [-7, 35, -18.5], "rotation": [125, 0, 0], "uv": [22, 22]},
+						{"origin": [-7.5, 35.5, -26], "size": [1, 1, 5], "pivot": [-7, 35, -18.5], "rotation": [125, 0, 0], "uv": [0, 0]},
+						{"origin": [-9.5, 21.5, 3], "size": [5, 5, 5], "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "launcher",
+					"parent": "weapon",
+					"pivot": [-3, 19, -9.5],
+					"cubes": [
+						{"origin": [-12, 19, -15], "size": [10, 10, 12], "uv": [0, 0]},
+						{"origin": [-11, 20, -18], "size": [8, 8, 3], "uv": [0, 22]},
+						{"origin": [-11, 20, -3], "size": [8, 8, 2], "uv": [20, 32]},
+						{"origin": [-9, 22, -1], "size": [4, 4, 1], "uv": [0, 6]},
+						{"origin": [-9, 22, -18], "size": [4, 4, 2], "uv": [0, 41]}
+					]
+				},
+				{
+					"name": "handle",
+					"parent": "weapon",
+					"pivot": [0, 16, -7],
+					"cubes": [
+						{"origin": [-8, 16, -4], "size": [2, 4, 3], "uv": [10, 33]},
+						{"origin": [-8, 13, -3], "size": [2, 5, 3], "uv": [0, 33]}
+					]
 				},
 				{
 					"name": "leftArm",

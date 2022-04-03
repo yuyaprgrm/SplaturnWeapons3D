@@ -1,24 +1,21 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.8.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "minecraft:wooden_axe",
+      "identifier": "minecraft:fishing_rod",
       "materials": {
         "default": "entity_alphatest",
         "enchanted": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/models/weapon/splaturn.t3nozzlenose",
+        "default": "textures/models/weapon/splaturn.splat_brella",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
-        "default": "geometry.splaturn.t3nozzlenose"
-      },
-      "animations": {
-        "direction": "animation.splaturn.shooter.direction"
+        "default": "geometry.splaturn.splat_brella"
       },
       "scripts": {
-        "animate": ["direction"]
+        "parent_setup": "variable.splat_brella_layer_visible = 0.0;"
       },
       "render_controllers": ["controller.render.default"]
     }

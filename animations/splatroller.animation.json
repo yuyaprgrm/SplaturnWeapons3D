@@ -1,7 +1,7 @@
 {
   "format_version": "1.8.0",
   "animations": {
-    "animation.splaturn.splatroller.idle": {
+    "animation.splaturn.splat_roller.idle": {
       "loop": true,
       "bones": {
         "weapon": {
@@ -14,7 +14,7 @@
         }
       }
     },
-    "animation.splaturn.splatroller.roll": {
+    "animation.splaturn.splat_roller.roll": {
       "animation_length": 1.95833,
       "bones": {
         "weapon": {
