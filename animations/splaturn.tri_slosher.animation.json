@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.splaturn.tri_slosher.idle": {
+			"loop": true,
+			"bones": {
+				"weapon": {
+					"position": [0, 2, 2],
+					"scale": 0.7
+				}
+			}
+		}
+	}
+}
