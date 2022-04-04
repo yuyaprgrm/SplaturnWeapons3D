@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:stone_axe",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/weapon/splaturn.mini_splatling",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.splaturn.mini_splatling"
+      },
+      "animations": {
+        "firstperson_preset": "animation.splaturn.first_person_preset.heavy_splatling",
+        "direction": "animation.splaturn.shooter.direction"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "firstperson_preset": "c.is_first_person"
+          },
+          "direction"
+        ]
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}
