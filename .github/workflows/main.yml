@@ -18,7 +18,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: compress pack
-        uses: famima65536/resourcepack-compressor@v1
+      - name: checkout
+        uses: action/checkout@v3
         with:
+          path: resourcepack
+
+      - name: compress pack
+        uses: famima65536/resourcepack-compressor@v2
+        with:
+          source: resourcepack
+          destination: artifact
           pack-name: SplaturnWeapons3D
+
+      - name: upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: resourcepack
+          path: artifact/SplaturnWeapons3D.mcpack
