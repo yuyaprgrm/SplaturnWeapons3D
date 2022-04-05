@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:magma_cube",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/splaturn.suction_bomb"
+      },
+      "geometry": {
+        "default": "geometry.splaturn.suction_bomb"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 20
+      }
+    }
+  }
+}
