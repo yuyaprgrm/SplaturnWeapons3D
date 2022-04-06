@@ -1,0 +1,25 @@
+{
+  "format_version": "1.18.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "splaturn:splat_bomb",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/splaturn.splat_bomb"
+      },
+      "geometry": {
+        "default": "geometry.splaturn.splat_bomb"
+      },
+      "animations": {
+        "move": "animation.splaturn.splat_bomb.move"
+      },
+      "scripts": {
+        "initialize": [
+          "variable.rotation = 0;"
+        ],
+        "animate": ["move"]
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

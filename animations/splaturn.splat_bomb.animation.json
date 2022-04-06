@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.splaturn.splat_bomb.move": {
+			"loop": true,
+			"bones": {
+				"bomb": {
+					"rotation": ["v.rotation = (1/10)*query.modified_distance_moved;return v.rotation*180;", "v.rotation*270", 0]
+				}
+			}
+		}
+	}
+}
