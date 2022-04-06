@@ -1,0 +1,22 @@
+{
+  "format_version": "1.18.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "splaturn:splash_bomb",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/splaturn.suction_bomb"
+      },
+      "geometry": {
+        "default": "geometry.splaturn.suction_bomb"
+      },
+      "animations": {
+        "move": "animation.splaturn.splat_bomb.move"
+      },
+      "scripts": {
+        "animate": ["move"]
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}
