@@ -5,7 +5,7 @@
 			"loop": true,
 			"bones": {
 				"bomb": {
-					"rotation": ["query.modified_distance_moved*180", "query.modified_distance_moved*270", 0]
+					"rotation": ["v.rotation = (1/10)*query.modified_distance_moved;return v.rotation*180;", "v.rotation*270", 0]
 				}
 			}
 		}

@@ -12,7 +12,12 @@
 			},
 			"bones": [
 				{
+					"name": "bomb",
+					"pivot": [0, 6, 0]
+				},
+				{
 					"name": "frame",
+					"parent": "bomb",
 					"pivot": [0, 0, 0]
 				},
 				{
@@ -124,6 +129,7 @@
 				},
 				{
 					"name": "content",
+					"parent": "bomb",
 					"pivot": [-0.5, -3, -0.4]
 				},
 				{
