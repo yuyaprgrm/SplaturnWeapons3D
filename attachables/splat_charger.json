@@ -22,14 +22,14 @@
       },
       "animations": {
         "wield": "animation.bow.wield",
-        "wield_first_person_pull": "animation.bow.wield_first_person_pull"
+        "first_person": "animation.splaturn.splat_charger.first_person",
+        "first_person_pull": "animation.splaturn.splat_charger.first_person_pull",
+        "root": "controller.animation.splaturn.charger.first_person"
       },
       "scripts": {
         "animate": [
           "wield",
-          {
-            "wield_first_person_pull": "query.main_hand_item_use_duration > 0.0f && c.is_first_person"
-          }
+          "root"
         ]
       },
       "render_controllers": ["controller.render.bow"]
