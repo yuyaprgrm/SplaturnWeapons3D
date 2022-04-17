@@ -15,10 +15,10 @@
         "default": "geometry.splaturn.slosher"
       },
       "animations": {
-        "direction": "animation.splaturn.shooter.direction"
+        "idle": "animation.splaturn.slosher.idle"
       },
       "scripts": {
-        "animate": ["direction"]
+        "animate": ["idle"]
       },
       "render_controllers": ["controller.render.default"]
     }

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.splaturn.charger.first_person": {
+      "initial_state": "stay",
+      "states": {
+        "stay": {
+          "animations": ["first_person"],
+          "blend_transition": 0.1,
+          "transitions": [
+            {
+              "pull": "query.main_hand_item_use_duration > 0.0f"
+            }
+          ]
+        },
+        "pull": {
+          "animations": ["first_person_pull"],
+          "blend_transition": 0.1,
+          "transitions": [
+            {
+              "stay": "query.main_hand_item_use_duration == 0.0f"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

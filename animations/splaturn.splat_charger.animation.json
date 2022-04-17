@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.splaturn.splat_charger.third_person": {
+			"loop": true
+		},
+		"animation.splaturn.splat_charger.first_person": {
+			"loop": true,
+			"bones": {
+				"weapon": {
+					"rotation": [19.8851, 58.54438, -24.91817]
+				}
+			}
+		},
+		"animation.splaturn.splat_charger.first_person_pull": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.5,
+			"bones": {
+				"weapon": {
+					"rotation": [-4.04536, 56.04648, -52.41783],
+					"position": {
+						"0.0": [5, 0, -8],
+						"1.5": [-9, 22, -1]
+					}
+				}
+			}
+		}
+	}
+}
