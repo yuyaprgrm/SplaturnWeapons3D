@@ -24,12 +24,14 @@
         "wield": "animation.bow.wield",
         "first_person": "animation.splaturn.splat_charger.first_person",
         "first_person_pull": "animation.splaturn.splat_charger.first_person_pull",
-        "root": "controller.animation.splaturn.charger.first_person"
+        "first_person_root": "controller.animation.splaturn.charger.first_person"
       },
       "scripts": {
         "animate": [
           "wield",
-          "root"
+          {
+            "first_person_root": "v.is_first_person"
+          }
         ]
       },
       "render_controllers": ["controller.render.bow"]
