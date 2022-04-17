@@ -30,7 +30,7 @@
         "animate": [
           "wield",
           {
-            "first_person_root": "v.is_first_person"
+            "first_person_root": "c.is_first_person"
           }
         ]
       },
