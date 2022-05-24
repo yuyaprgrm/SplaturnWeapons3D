@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.18.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:magma_cube",
@@ -9,6 +9,12 @@
       },
       "geometry": {
         "default": "geometry.splaturn.suction_bomb"
+      },
+      "animations": {
+        "move": "animation.suction_bomb.move"
+      },
+      "scripts": {
+        "animate": ["move"]
       },
       "render_controllers": [ "controller.render.default" ],
       "spawn_egg": {
