@@ -24,7 +24,7 @@ jobs:
           path: resourcepack
 
       - name: compress pack
-        uses: famima65536/resourcepack-compressor@v2
+        uses: famima65536/resourcepack-compressor@feature/minify
         with:
           source: resourcepack
           destination: artifact
