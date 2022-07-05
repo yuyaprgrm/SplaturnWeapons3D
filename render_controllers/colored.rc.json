@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.splaturn.weapons3d.colored": {
+      "arrays": {
+          "textures": {
+            "Array.top": [
+                "Texture.white",
+                "Texture.orange",
+                "Texture.magenta",
+                "Texture.aqua",
+                "Texture.yellow",
+                "Texture.lime",
+                "Texture.purple",
+                "Texture.blue",
+                "Texture.red"
+            ]
+          }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.top[v.splaturncolor]" ]
+    }
+  }
+}
