@@ -17,6 +17,9 @@
         "purple": "textures/models/weapon/dynamo_roller/purple",
         "blue": "textures/models/weapon/dynamo_roller/blue",
         "red": "textures/models/weapon/dynamo_roller/red",
+				"pink": "textures/models/weapon/dynamo_roller/pink",
+				"green": "textures/models/weapon/dynamo_roller/green",
+				"cyan": "textures/models/weapon/dynamo_roller/cyan",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
