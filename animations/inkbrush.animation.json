@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.splaturn.inkbrush.scale": {
+			"loop": true,
+			"bones": {
+				"weapon": {
+					"scale": 0.3
+				}
+			}
+		},
+		"animation.splaturn.inkbrush.roll": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"weapon": {
+					"rotation": {
+						"0.0": [90.05178, -21.69775, 4.26573],
+						"0.5": [75.05178, -21.69775, 4.26573]
+					}
+				}
+			}
+		},
+		"animation.splaturn.inkbrush.idle": {
+			"loop": true,
+			"bones": {
+				"weapon": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

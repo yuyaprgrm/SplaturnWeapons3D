@@ -59,20 +59,7 @@
 				{
 					"name": "barrel",
 					"parent": "weapon",
-					"pivot": [-8, 14, -17]
-				},
-				{
-					"name": "unit2",
-					"parent": "barrel",
-					"pivot": [-8, 14, -20],
-					"cubes": [
-						{"origin": [-8, 16, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [43, 44]},
-						{"origin": [-8, 12, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [14, 44]},
-						{"origin": [-10, 13, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [0, 43]},
-						{"origin": [-10, 15, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [33, 41]},
-						{"origin": [-6, 13, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [39, 20]},
-						{"origin": [-6, 15, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [38, 34]}
-					]
+					"pivot": [-6.5, 15.5, -17]
 				},
 				{
 					"name": "unit1",
@@ -121,8 +108,23 @@
 					]
 				},
 				{
-					"name": "board1",
+					"name": "board0",
 					"parent": "barrel",
+					"pivot": [-8, 14, -17],
+					"cubes": [
+						{"origin": [-8.5, 17.5, -18], "size": [4, 1, 1], "uv": [13, 32]},
+						{"origin": [-8.5, 12.5, -18], "size": [4, 1, 1], "uv": [26, 28]},
+						{"origin": [-9.5, 13.5, -18], "size": [6, 4, 1], "uv": [45, 15]}
+					]
+				},
+				{
+					"name": "nozzle",
+					"parent": "barrel",
+					"pivot": [-6.5, 15.5, -21]
+				},
+				{
+					"name": "board1",
+					"parent": "nozzle",
 					"pivot": [-8, 14, -21],
 					"cubes": [
 						{"origin": [-8.5, 17.5, -22], "size": [4, 1, 1], "uv": [34, 15]},
@@ -131,13 +133,16 @@
 					]
 				},
 				{
-					"name": "board0",
-					"parent": "barrel",
-					"pivot": [-8, 14, -17],
+					"name": "unit2",
+					"parent": "nozzle",
+					"pivot": [-8, 14, -20],
 					"cubes": [
-						{"origin": [-8.5, 17.5, -18], "size": [4, 1, 1], "uv": [13, 32]},
-						{"origin": [-8.5, 12.5, -18], "size": [4, 1, 1], "uv": [26, 28]},
-						{"origin": [-9.5, 13.5, -18], "size": [6, 4, 1], "uv": [45, 15]}
+						{"origin": [-8, 16, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [43, 44]},
+						{"origin": [-8, 12, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [14, 44]},
+						{"origin": [-10, 13, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [0, 43]},
+						{"origin": [-10, 15, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [33, 41]},
+						{"origin": [-6, 13, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [39, 20]},
+						{"origin": [-6, 15, -25], "size": [3, 3, 4], "inflate": -0.8, "uv": [38, 34]}
 					]
 				},
 				{

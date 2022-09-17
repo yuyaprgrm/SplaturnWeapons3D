@@ -4,7 +4,7 @@
     "description": "Splaturn resource pack for advanced experience. Special thanks Chiraura❤",
     "name": "Splaturn Weapons 3D",
     "uuid": "6ebb7423-2032-450f-81d8-e30b26ba8b61",
-    "version": [1, 2, 0],
+    "version": [2, 0, 0],
     "min_engine_version": [1, 18, 0]
   },
   "modules": [

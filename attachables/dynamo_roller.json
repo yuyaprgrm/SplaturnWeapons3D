@@ -8,7 +8,18 @@
         "enchanted": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/models/weapon/splaturn.dynamo_roller",
+        "white": "textures/models/weapon/dynamo_roller/white",
+        "orange": "textures/models/weapon/dynamo_roller/orange",
+        "magenta": "textures/models/weapon/dynamo_roller/magenta",
+        "aqua": "textures/models/weapon/dynamo_roller/aqua",
+        "yellow": "textures/models/weapon/dynamo_roller/yellow",
+        "lime": "textures/models/weapon/dynamo_roller/lime",
+        "purple": "textures/models/weapon/dynamo_roller/purple",
+        "blue": "textures/models/weapon/dynamo_roller/blue",
+        "red": "textures/models/weapon/dynamo_roller/red",
+				"pink": "textures/models/weapon/dynamo_roller/pink",
+				"green": "textures/models/weapon/dynamo_roller/green",
+				"cyan": "textures/models/weapon/dynamo_roller/cyan",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
@@ -21,11 +32,12 @@
       },
       "scripts": {
         "pre_animation": [
-          "variable.attack_time = c.owning_entity -> variable.attack_time;"
+          "variable.attack_time = c.owning_entity -> variable.attack_time;",
+          "variable.splaturncolor = math.mod(c.owning_entity->query.variant, 16);"
         ],
         "animate": ["root"]
       },
-      "render_controllers": ["controller.render.default"]
+      "render_controllers": ["controller.render.splaturn.weapons3d.colored"]
     }
   }
 }
