@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.suction_bomb.move": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["-query.target_x_rotation", "-query.target_y_rotation", 0]
+				}
+			}
+		},
+		"animation.suction_bomb.shake": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["10*math.exp(-2*query.life_time)*math.sin(query.life_time*2*math.pi*350)", 0, "10*math.exp(-2*query.life_time)*math.sin(query.life_time*2*math.pi*300) "]
+				}
+			}
+		}
+	}
+}
