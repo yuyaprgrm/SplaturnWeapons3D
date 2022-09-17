@@ -8,7 +8,18 @@
         "enchanted": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/models/weapon/splaturn.splat_roller",
+        "white": "textures/models/weapon/splat_roller/white",
+        "orange": "textures/models/weapon/splat_roller/orange",
+        "magenta": "textures/models/weapon/splat_roller/magenta",
+        "aqua": "textures/models/weapon/splat_roller/aqua",
+        "yellow": "textures/models/weapon/splat_roller/yellow",
+        "lime": "textures/models/weapon/splat_roller/lime",
+        "purple": "textures/models/weapon/splat_roller/purple",
+        "blue": "textures/models/weapon/splat_roller/blue",
+        "red": "textures/models/weapon/splat_roller/red",
+				"pink": "textures/models/weapon/splat_roller/pink",
+				"green": "textures/models/weapon/splat_roller/green",
+				"cyan": "textures/models/weapon/splat_roller/cyan",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
@@ -25,7 +36,7 @@
         ],
         "animate": ["root"]
       },
-      "render_controllers": ["controller.render.default"]
+      "render_controllers": ["controller.render.splaturn.weapons3d.colored"]
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
       "identifier": "minecraft:stick",
@@ -8,16 +8,41 @@
         "enchanted": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/models/weapon/splaturn.inkbrush",
+        "white": "textures/models/weapon/inkbrush/white",
+        "orange": "textures/models/weapon/inkbrush/orange",
+        "magenta": "textures/models/weapon/inkbrush/magenta",
+        "aqua": "textures/models/weapon/inkbrush/aqua",
+        "yellow": "textures/models/weapon/inkbrush/yellow",
+        "lime": "textures/models/weapon/inkbrush/lime",
+        "purple": "textures/models/weapon/inkbrush/purple",
+        "blue": "textures/models/weapon/inkbrush/blue",
+        "red": "textures/models/weapon/inkbrush/red",
+				"pink": "textures/models/weapon/inkbrush/pink",
+				"green": "textures/models/weapon/inkbrush/green",
+				"cyan": "textures/models/weapon/inkbrush/cyan",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
         "default": "geometry.splaturn.inkbrush"
       },
-      "scripts": {
-        "parent_setup": "variable.inkbrush_layer_visible = 0.0;"
+      "animations": {
+        "root": "controller.animation.splaturn.roller",
+        "scale": "animation.splaturn.inkbrush.scale",
+        "roll": "animation.splaturn.inkbrush.roll",
+        "idle": "animation.splaturn.inkbrush.idle"
       },
-      "render_controllers": ["controller.render.default"]
+      "scripts": {
+        "pre_animation": [
+          "variable.attack_time = c.owning_entity -> variable.attack_time;",
+          "variable.inkbrush_layer_visible = 0.0;",
+          "variable.splaturncolor = math.mod(c.owning_entity->query.variant, 16);"
+        ],
+        "animate": [
+          "scale",
+          "root"
+        ]
+      },
+      "render_controllers": ["controller.render.splaturn.weapons3d.colored"]
     }
   }
 }
