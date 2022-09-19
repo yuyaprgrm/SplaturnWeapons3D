@@ -2,10 +2,21 @@
   "format_version": "1.18.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "minecraft:magma_cube",
+      "identifier": "splaturn:suction_bomb",
       "materials": { "default": "entity_alphatest" },
       "textures": {
-        "default": "textures/entity/splaturn.suction_bomb"
+        "white": "textures/entity/white",
+        "orange": "textures/entity/orange",
+        "magenta": "textures/entity/magenta",
+        "aqua": "textures/entity/aqua",
+        "yellow": "textures/entity/yellow",
+        "lime": "textures/entity/lime",
+        "purple": "textures/entity/purple",
+        "blue": "textures/entity/blue",
+        "red": "textures/entity/red",
+        "pink": "textures/entity/pink",
+        "green": "textures/entity/green",
+        "cyan": "textures/entity/cyan"
       },
       "geometry": {
         "default": "geometry.splaturn.suction_bomb"
@@ -16,7 +27,7 @@
       "scripts": {
         "animate": ["move"]
       },
-      "render_controllers": [ "controller.render.default" ],
+      "render_controllers": [ "controller.render.splaturn.weapons3d.colored" ],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 20
