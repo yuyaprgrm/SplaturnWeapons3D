@@ -1,3 +1,5 @@
+#!/usr/bin/env python 
+
 from os import system
 import sys
 
@@ -10,7 +12,10 @@ colors = [
   "lime",
   "purple",
   "blue",
-  "red"
+  "red",
+  "pink",
+  "green",
+  "cyan"
 ]
 
 path = sys.argv[1]
