@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.humanoid.splaturn.roller.slash": {
+		"animation.humanoid.splaturn.roller.splash": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
